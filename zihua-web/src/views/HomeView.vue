@@ -1,9 +1,12 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+import { getCharacters } from '../api/character';
 import http from '../api/http';
 
 const message = ref('正在连接后端...');
 const isError = ref(false);
+const libraryMessage = ref('正在验证后端字库...');
+const libraryError = ref(false);
 
 const sampleCharacters = [
   {
@@ -34,8 +37,21 @@ const fetchHello = async () => {
   }
 };
 
+const fetchCharacters = async () => {
+  try {
+    const response = await getCharacters();
+    const names = response.data.map((item) => item.character).join('、');
+    libraryMessage.value = `已加载 ${response.data.length} 个样例字：${names}`;
+    libraryError.value = false;
+  } catch (error) {
+    libraryMessage.value = '字库接口连接失败';
+    libraryError.value = true;
+  }
+};
+
 onMounted(() => {
   fetchHello();
+  fetchCharacters();
 });
 </script>
 
@@ -76,6 +92,14 @@ onMounted(() => {
         <h3>接口状态</h3>
       </div>
       <p class="status-text" :class="{ error: isError }">{{ message }}</p>
+    </section>
+
+    <section class="panel verification-panel">
+      <div class="section-heading">
+        <span class="section-dot"></span>
+        <h3>后端字库接口验证</h3>
+      </div>
+      <p class="status-text" :class="{ error: libraryError }">{{ libraryMessage }}</p>
     </section>
   </main>
 </template>
@@ -211,7 +235,8 @@ onMounted(() => {
   line-height: 1.7;
 }
 
-.status-panel {
+.status-panel,
+.verification-panel {
   margin-top: 24px;
 }
 

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "shan",
+    "character": "山",
+    "pinyin": "shān",
+    "origin": "象形字",
+    "meaning": "本义指高起的陆地形态，像连绵起伏的山峰，是先民对自然地貌的直观描绘。",
+    "culture": "山常被视为稳固、坚毅与生长的象征，也寄托着守望家园、仰观天地的精神。",
+    "kaishuCharacter": "山",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/shan/jgw.png",
+        "description": "甲骨文中的“山”像三座突起的峰峦，直接勾勒出山体的外形。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/shan/jw.png",
+        "description": "金文笔画更圆润厚重，山峰的轮廓更有礼器铭文的装饰感。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/shan/xz.png",
+        "description": "小篆将山体线条统一整理，结构更匀称，呈现规范化趋势。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/shan/ls.png",
+        "description": "隶书逐渐拉平线条，字形由象形意味转向更加书写化的结构。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书中的“山”笔画清晰稳定，成为今天最常见的规范字形。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "很久以前，人们抬头望见远处连起的山岭，觉得那是大地挺起的脊梁。于是他们用三座并立的峰头画出“山”，把眼前最可靠的自然形象刻进文字里。后来字形一再整理，但那份对高山的敬畏、对稳固力量的理解，一直留在这个字中。",
+      "reviewed": true
+    },
+    "cardMeta": {
+      "summary": "三峰并立，写出大地的筋骨。",
+      "sealText": "字活"
+    },
+    "note": ""
+  },
+  {
+    "id": "jia",
+    "character": "家",
+    "pinyin": "jiā",
+    "origin": "会意字",
+    "meaning": "上部像屋顶，下部像家养的猪，组合起来表示有居所、有生计的家庭空间。",
+    "culture": "家承载团圆、安定与传承，是中国文化中情感归属和伦理秩序的重要象征。",
+    "kaishuCharacter": "家",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/jia/jgw.png",
+        "description": "甲骨文的“家”已经能看出屋顶与牲畜的组合，表达定居生活。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/jia/jw.png",
+        "description": "金文笔意更丰满，屋宇与内部形象的关系更加明确。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/jia/xz.png",
+        "description": "小篆将上下结构收束得更匀称，字形趋于统一规范。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/jia/ls.png",
+        "description": "隶书强化横向铺展，结构开始接近后世常见的写法。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书中的“家”结构分明，成为今天表达家庭与归属的通用字形。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "古人想到“家”，先想到遮风避雨的屋顶，也想到屋内赖以生活的牲畜。于是他们把屋与猪组合起来，写成“家”，表示一个真正安顿下来的生活空间。字形后来越写越整齐，但它始终提醒人们：家不只是房子，更是有人、有烟火、有守护的地方。",
+      "reviewed": true
+    },
+    "cardMeta": {
+      "summary": "屋下有生计，才有可归的家。",
+      "sealText": "字活"
+    },
+    "note": ""
+  },
+  {
+    "id": "ming",
+    "character": "明",
+    "pinyin": "míng",
+    "origin": "会意字",
+    "meaning": "由“日”和“月”组合而成，本义与光亮、清楚、显明相关。",
+    "culture": "明常被引申为智慧、通透与希望，体现光照万物、心境澄澈的审美意味。",
+    "kaishuCharacter": "明",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/ming/jgw.png",
+        "description": "甲骨文以日月并列或相配的方式表达光明充足的状态。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/ming/jw.png",
+        "description": "金文中的“明”更强调组合关系，字形厚重而有礼器气息。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/ming/xz.png",
+        "description": "小篆将日月结构整理得更对称流畅，字形更具统一感。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/ming/ls.png",
+        "description": "隶书书写转折更明显，结构逐渐过渡到后来的楷书形式。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书中的“明”结构稳定清楚，日月相映的会意关系更加直观。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "人们观察天地时，发现白天有日，夜里有月，它们都能驱散黑暗。于是古人把“日”和“月”放在一起，造出“明”，用来表示光亮，也表示事情看得清楚、心里想得通透。后来这个字不只关乎亮度，也慢慢成为智慧、希望与清醒的象征。",
+      "reviewed": true
+    },
+    "cardMeta": {
+      "summary": "日月相映，照见清亮与通透。",
+      "sealText": "字活"
+    },
+    "note": ""
+  }
+]
