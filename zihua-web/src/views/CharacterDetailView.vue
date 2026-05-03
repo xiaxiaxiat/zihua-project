@@ -2,8 +2,10 @@
 import { computed, onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { getCharacterById } from '../api/character';
-import EvolutionTimeline from '../components/EvolutionTimeline.vue';
+import CardExportActions from '../components/CardExportActions.vue';
+import CultureCard from '../components/CultureCard.vue';
 import EvolutionStageViewer from '../components/EvolutionStageViewer.vue';
+import EvolutionTimeline from '../components/EvolutionTimeline.vue';
 import StrokeOrderPlayer from '../components/StrokeOrderPlayer.vue';
 
 const route = useRoute();
@@ -19,6 +21,14 @@ const activeStage = computed(() => {
   }
 
   return detail.value.stages.find((stage) => stage.key === activeStageKey.value) || detail.value.stages[0];
+});
+
+const cultureCardElementId = computed(() => {
+  if (!detail.value?.id) {
+    return 'culture-card-preview';
+  }
+
+  return `culture-card-${detail.value.id}`;
 });
 
 const fetchDetail = async () => {
@@ -129,6 +139,23 @@ watch(
         </section>
 
         <StrokeOrderPlayer :character="detail.character" />
+
+        <section class="detail-panel card-section">
+          <div class="section-heading">
+            <span class="section-dot"></span>
+            <h2>专属字卡</h2>
+          </div>
+          <p class="section-intro">
+            预览当前汉字的文化字卡，并可一键导出为 PNG 图片。
+          </p>
+          <div class="culture-card-shell">
+            <CultureCard :detail="detail" :card-element-id="cultureCardElementId" />
+          </div>
+          <CardExportActions
+            :card-element-id="cultureCardElementId"
+            :character="detail.character"
+          />
+        </section>
       </template>
     </section>
   </main>
@@ -182,8 +209,16 @@ watch(
   padding: 32px;
 }
 
+.hero-mark,
+.hero-summary,
+.info-label,
+.info-text,
+.status-text,
+.section-intro {
+  margin: 0;
+}
+
 .hero-mark {
-  margin: 0 0 10px;
   color: #a53a2a;
   font-size: 14px;
   letter-spacing: 1px;
@@ -217,7 +252,6 @@ watch(
 }
 
 .hero-summary {
-  margin: 0;
   color: #342a23;
   font-size: 20px;
   line-height: 1.8;
@@ -262,15 +296,15 @@ watch(
 }
 
 .info-label {
-  margin: 0 0 10px;
+  margin-bottom: 10px;
   color: #b7412e;
   font-size: 14px;
   letter-spacing: 1px;
 }
 
 .info-text,
-.status-text {
-  margin: 0;
+.status-text,
+.section-intro {
   color: #4e4136;
   font-size: 16px;
   line-height: 1.9;
@@ -278,6 +312,18 @@ watch(
 
 .timeline-viewer {
   margin-top: 20px;
+}
+
+.card-section {
+  overflow: hidden;
+}
+
+.culture-card-shell {
+  margin-top: 22px;
+}
+
+.section-intro {
+  max-width: 640px;
 }
 
 .error {

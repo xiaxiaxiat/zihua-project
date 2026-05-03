@@ -10,3 +10,10 @@
 [2m11:17:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue, /src/views/HomeView.vue?vue&type=style&index=0&scoped=b4e148ca&lang.css[22m
 [2m11:17:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.js[22m
 [2m11:27:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue, /src/views/HomeView.vue?vue&type=style&index=0&scoped=b4e148ca&lang.css[22m
+[2m11:35:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/HomeView.vue, /src/views/HomeView.vue?vue&type=style&index=0&scoped=b4e148ca&lang.css[22m
+[2m11:42:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/router/index.js[22m
+[2m11:42:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/CharacterCard.vue, /src/components/CharacterCard.vue?vue&type=style&index=0&scoped=82d09848&lang.css[22m
+[2m11:51:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/CharacterDetailView.vue[22m
+[2m11:51:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33mhanzi-writer[32m[39m
+[2m11:51:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m13:48:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/views/CharacterDetailView.vue, /src/views/CharacterDetailView.vue?vue&type=style&index=0&scoped=ccff00fa&lang.css[22m
