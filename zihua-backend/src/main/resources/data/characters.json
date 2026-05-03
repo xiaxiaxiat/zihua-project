@@ -51,6 +51,363 @@
     "note": ""
   },
   {
+    "id": "shui",
+    "character": "水",
+    "pinyin": "shui",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "水",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/shui/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/shui/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/shui/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/shui/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "ri",
+    "character": "日",
+    "pinyin": "ri",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "日",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/ri/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/ri/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/ri/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/ri/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "yue",
+    "character": "月",
+    "pinyin": "yue",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "月",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/yue/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/yue/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/yue/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/yue/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "ren-human",
+    "character": "人",
+    "pinyin": "ren",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "人",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/ren-human/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/ren-human/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/ren-human/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/ren-human/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "mu",
+    "character": "木",
+    "pinyin": "mu",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "木",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/mu/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/mu/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/mu/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/mu/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "huo",
+    "character": "火",
+    "pinyin": "huo",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "火",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/huo/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/huo/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/huo/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/huo/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "tian",
+    "character": "田",
+    "pinyin": "tian",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "田",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/tian/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/tian/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/tian/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/tian/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
     "id": "jia",
     "character": "家",
     "pinyin": "jiā",
@@ -102,6 +459,924 @@
     "note": ""
   },
   {
+    "id": "an",
+    "character": "安",
+    "pinyin": "an",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "安",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/an/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/an/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/an/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/an/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "he",
+    "character": "和",
+    "pinyin": "he",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "和",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/he/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/he/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/he/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/he/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "xin-letter",
+    "character": "信",
+    "pinyin": "xin",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "信",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/xin-letter/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/xin-letter/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/xin-letter/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/xin-letter/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "ren-virtue",
+    "character": "仁",
+    "pinyin": "ren",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "仁",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/ren-virtue/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/ren-virtue/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/ren-virtue/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/ren-virtue/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "li",
+    "character": "礼",
+    "pinyin": "li",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "礼",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/li/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/li/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/li/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/li/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "fu",
+    "character": "福",
+    "pinyin": "fu",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "福",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/fu/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/fu/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/fu/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/fu/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "chun",
+    "character": "春",
+    "pinyin": "chun",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "春",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/chun/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/chun/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/chun/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/chun/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "long",
+    "character": "龙",
+    "pinyin": "long",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "龙",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/long/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/long/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/long/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/long/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "ma",
+    "character": "马",
+    "pinyin": "ma",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "马",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/ma/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/ma/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/ma/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/ma/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "yu",
+    "character": "鱼",
+    "pinyin": "yu",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "鱼",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/yu/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/yu/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/yu/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/yu/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "niao",
+    "character": "鸟",
+    "pinyin": "niao",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "鸟",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/niao/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/niao/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/niao/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/niao/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "xin-heart",
+    "character": "心",
+    "pinyin": "xin",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "心",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/xin-heart/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/xin-heart/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/xin-heart/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/xin-heart/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "meng",
+    "character": "梦",
+    "pinyin": "meng",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "梦",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/meng/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/meng/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/meng/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/meng/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "xue",
+    "character": "学",
+    "pinyin": "xue",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "学",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/xue/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/xue/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/xue/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/xue/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "wen",
+    "character": "文",
+    "pinyin": "wen",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "文",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/wen/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/wen/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/wen/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/wen/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "guo",
+    "character": "国",
+    "pinyin": "guo",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "国",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/guo/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/guo/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/guo/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/guo/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "zhong",
+    "character": "中",
+    "pinyin": "zhong",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "中",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/zhong/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/zhong/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/zhong/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/zhong/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "hua",
+    "character": "华",
+    "pinyin": "hua",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "华",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/hua/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/hua/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/hua/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/hua/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
     "id": "ming",
     "character": "明",
     "pinyin": "míng",
@@ -151,5 +1426,107 @@
       "sealText": "字活"
     },
     "note": ""
+  },
+  {
+    "id": "de",
+    "character": "德",
+    "pinyin": "de",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "德",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/de/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/de/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/de/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/de/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
+  },
+  {
+    "id": "shan-kindness",
+    "character": "善",
+    "pinyin": "shan",
+    "origin": "字源解释待人工校对",
+    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
+    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "kaishuCharacter": "善",
+    "stages": [
+      {
+        "key": "jiaguwen",
+        "name": "甲骨文",
+        "imageUrl": "/character-images/shan-kindness/jgw.png",
+        "description": "甲骨文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "jinwen",
+        "name": "金文",
+        "imageUrl": "/character-images/shan-kindness/jw.png",
+        "description": "金文阶段字形说明待人工校对。"
+      },
+      {
+        "key": "xiaozhuan",
+        "name": "小篆",
+        "imageUrl": "/character-images/shan-kindness/xz.png",
+        "description": "小篆阶段字形说明待人工校对。"
+      },
+      {
+        "key": "lishu",
+        "name": "隶书",
+        "imageUrl": "/character-images/shan-kindness/ls.png",
+        "description": "隶书阶段字形说明待人工校对。"
+      },
+      {
+        "key": "kaishu",
+        "name": "楷书",
+        "imageUrl": null,
+        "description": "楷书阶段字形说明待人工校对。"
+      }
+    ],
+    "story": {
+      "title": "字源故事",
+      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "reviewed": false
+    },
+    "cardMeta": {
+      "summary": "字义概要待人工校对。",
+      "sealText": "字活"
+    },
+    "note": "待人工校对字源资料与故事文本"
   }
 ]

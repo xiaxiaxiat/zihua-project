@@ -114,6 +114,9 @@ watch(
               <span class="section-dot"></span>
               <h2>{{ detail.story.title }}</h2>
             </div>
+            <p v-if="detail.story && detail.story.reviewed === false" class="review-note">
+              该字源故事待人工校对
+            </p>
             <p class="info-text">{{ detail.story.body }}</p>
           </article>
         </section>
@@ -214,7 +217,8 @@ watch(
 .info-label,
 .info-text,
 .status-text,
-.section-intro {
+.section-intro,
+.review-note {
   margin: 0;
 }
 
@@ -308,6 +312,18 @@ watch(
   color: #4e4136;
   font-size: 16px;
   line-height: 1.9;
+}
+
+.review-note {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  margin-bottom: 14px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background-color: #fbf0ea;
+  color: #a04835;
+  font-size: 14px;
 }
 
 .timeline-viewer {
