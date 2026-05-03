@@ -2,50 +2,38 @@
 import { onMounted, ref } from 'vue';
 import { getCharacters } from '../api/character';
 import http from '../api/http';
+import CharacterCard from '../components/CharacterCard.vue';
 
-const message = ref('正在连接后端...');
-const isError = ref(false);
-const libraryMessage = ref('正在验证后端字库...');
-const libraryError = ref(false);
+const helloMessage = ref('正在连接后端...');
+const helloError = ref(false);
 
-const sampleCharacters = [
-  {
-    character: '山',
-    pinyin: 'shan',
-    meaning: '稳重如山，象征坚定与生长。'
-  },
-  {
-    character: '家',
-    pinyin: 'jia',
-    meaning: '屋舍有光，寄托团圆与守护。'
-  },
-  {
-    character: '明',
-    pinyin: 'ming',
-    meaning: '日月相映，寓意通透与希望。'
-  }
-];
+const characters = ref([]);
+const charactersLoading = ref(true);
+const charactersError = ref(false);
 
 const fetchHello = async () => {
   try {
     const response = await http.get('/hello');
-    message.value = response.data;
-    isError.value = false;
+    helloMessage.value = response.data;
+    helloError.value = false;
   } catch (error) {
-    message.value = '接口连接失败，请检查后端是否启动';
-    isError.value = true;
+    helloMessage.value = '接口连接失败，请检查后端是否启动';
+    helloError.value = true;
   }
 };
 
 const fetchCharacters = async () => {
+  charactersLoading.value = true;
+  charactersError.value = false;
+
   try {
     const response = await getCharacters();
-    const names = response.data.map((item) => item.character).join('、');
-    libraryMessage.value = `已加载 ${response.data.length} 个样例字：${names}`;
-    libraryError.value = false;
+    characters.value = response.data;
   } catch (error) {
-    libraryMessage.value = '字库接口连接失败';
-    libraryError.value = true;
+    characters.value = [];
+    charactersError.value = true;
+  } finally {
+    charactersLoading.value = false;
   }
 };
 
@@ -71,18 +59,15 @@ onMounted(() => {
         <span class="section-dot"></span>
         <h3>样例汉字</h3>
       </div>
-      <div class="card-grid">
-        <article
-          v-for="item in sampleCharacters"
-          :key="item.character"
-          class="character-card"
-        >
-          <div class="card-character">{{ item.character }}</div>
-          <div class="card-meta">
-            <p class="card-pinyin">{{ item.pinyin }}</p>
-            <p class="card-meaning">{{ item.meaning }}</p>
-          </div>
-        </article>
+
+      <p v-if="charactersLoading" class="status-text">正在加载字库……</p>
+      <p v-else-if="charactersError" class="status-text error">字库加载失败，请检查后端是否启动</p>
+      <div v-else class="card-grid">
+        <CharacterCard
+          v-for="item in characters"
+          :key="item.id"
+          :item="item"
+        />
       </div>
     </section>
 
@@ -91,15 +76,7 @@ onMounted(() => {
         <span class="section-dot"></span>
         <h3>接口状态</h3>
       </div>
-      <p class="status-text" :class="{ error: isError }">{{ message }}</p>
-    </section>
-
-    <section class="panel verification-panel">
-      <div class="section-heading">
-        <span class="section-dot"></span>
-        <h3>后端字库接口验证</h3>
-      </div>
-      <p class="status-text" :class="{ error: libraryError }">{{ libraryMessage }}</p>
+      <p class="status-text" :class="{ error: helloError }">{{ helloMessage }}</p>
     </section>
   </main>
 </template>
@@ -191,52 +168,7 @@ onMounted(() => {
   gap: 18px;
 }
 
-.character-card {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-  min-height: 180px;
-  padding: 22px 20px;
-  border: 1px solid #e1d2bb;
-  border-radius: 14px;
-  background-color: #fffdf8;
-}
-
-.card-character {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 84px;
-  min-width: 84px;
-  height: 84px;
-  border-radius: 12px;
-  background-color: #f3e6d4;
-  color: #221a15;
-  font-size: 42px;
-  font-weight: 600;
-}
-
-.card-meta {
-  min-width: 0;
-}
-
-.card-pinyin {
-  margin: 0 0 10px;
-  color: #b7412e;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.card-meaning {
-  margin: 0;
-  color: #53463c;
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-.status-panel,
-.verification-panel {
+.status-panel {
   margin-top: 24px;
 }
 
@@ -255,10 +187,6 @@ onMounted(() => {
   .card-grid {
     grid-template-columns: 1fr;
   }
-
-  .character-card {
-    min-height: 0;
-  }
 }
 
 @media (max-width: 640px) {
@@ -269,17 +197,6 @@ onMounted(() => {
   .hero,
   .panel {
     padding: 24px 18px;
-  }
-
-  .character-card {
-    align-items: flex-start;
-  }
-
-  .card-character {
-    width: 72px;
-    min-width: 72px;
-    height: 72px;
-    font-size: 36px;
   }
 }
 </style>
