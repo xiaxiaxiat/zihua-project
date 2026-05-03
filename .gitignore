@@ -1,0 +1,12 @@
+zihua-web/node_modules/
+zihua-web/dist/
+zihua-backend/target/
+zihua-backend/.m2-repo/
+.m2-repository/
+.npm-cache/
+*.log
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
