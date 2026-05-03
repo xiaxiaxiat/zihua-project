@@ -34,16 +34,16 @@ const selectStage = (stageKey) => {
 
 <style scoped>
 .timeline {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
 }
 
 .timeline-item {
-  min-width: 108px;
-  padding: 12px 16px;
+  min-width: 0;
+  padding: 13px 14px;
   border: 1px solid #ddccb0;
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: #fffdf8;
   color: #58493f;
   font: inherit;
@@ -58,8 +58,10 @@ const selectStage = (stageKey) => {
 
 .timeline-item.active {
   border-color: #b7412e;
-  background-color: #fbf1e8;
+  background:
+    linear-gradient(180deg, #fff7ef 0%, #f7e5d6 100%);
   color: #231d18;
+  box-shadow: inset 0 0 0 1px rgba(183, 65, 46, 0.12);
 }
 
 .timeline-name {
@@ -70,9 +72,13 @@ const selectStage = (stageKey) => {
 }
 
 @media (max-width: 640px) {
+  .timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
   .timeline-item {
-    flex: 1 1 calc(50% - 6px);
-    min-width: 0;
+    padding: 12px 10px;
   }
 }
 </style>

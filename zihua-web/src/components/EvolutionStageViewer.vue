@@ -74,6 +74,7 @@ const handleImageError = () => {
   grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
   gap: 24px;
   align-items: stretch;
+  min-width: 0;
 }
 
 .stage-media,
@@ -84,6 +85,7 @@ const handleImageError = () => {
 .stage-media {
   display: flex;
   align-items: stretch;
+  min-width: 0;
 }
 
 .stage-image,
@@ -91,7 +93,7 @@ const handleImageError = () => {
 .stage-character {
   width: 100%;
   border: 1px solid #e1d2bb;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: #fffdf8;
 }
 
@@ -106,7 +108,13 @@ const handleImageError = () => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 28px;
+  padding: 30px;
+}
+
+.stage-placeholder {
+  background:
+    radial-gradient(circle at top, rgba(183, 65, 46, 0.08), transparent 30%),
+    #fffdf8;
 }
 
 .stage-character {
@@ -131,9 +139,10 @@ const handleImageError = () => {
 }
 
 .stage-content {
-  padding: 28px;
+  min-width: 0;
+  padding: 30px;
   border: 1px solid #e1d2bb;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: #fffdf8;
 }
 
@@ -166,6 +175,31 @@ const handleImageError = () => {
   .stage-media,
   .stage-content {
     min-height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .stage-viewer {
+    gap: 14px;
+  }
+
+  .stage-placeholder,
+  .stage-character,
+  .stage-content {
+    padding: 22px 16px;
+    border-radius: 16px;
+  }
+
+  .stage-character {
+    font-size: clamp(70px, 26vw, 104px);
+  }
+
+  .stage-title {
+    font-size: 24px;
+  }
+
+  .stage-description {
+    font-size: 15px;
   }
 }
 </style>

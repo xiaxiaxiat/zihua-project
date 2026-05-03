@@ -163,10 +163,10 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .stroke-panel {
-  margin-top: 24px;
-  padding: 28px;
+  margin-top: 26px;
+  padding: 30px;
   border: 1px solid #decfb5;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: rgba(255, 252, 246, 0.94);
   box-shadow: 0 14px 30px rgba(58, 44, 34, 0.06);
 }
@@ -198,6 +198,7 @@ onBeforeUnmount(() => {
   grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
   gap: 24px;
   align-items: start;
+  min-width: 0;
 }
 
 .writer-board {
@@ -207,8 +208,9 @@ onBeforeUnmount(() => {
   min-height: 280px;
   padding: 16px;
   border: 1px solid #e1d2bb;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: #fffdf8;
+  min-width: 0;
 }
 
 .writer-canvas {
@@ -218,9 +220,10 @@ onBeforeUnmount(() => {
 }
 
 .player-controls {
+  min-width: 0;
   padding: 24px;
   border: 1px solid #e1d2bb;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: #fffdf8;
 }
 
@@ -243,7 +246,7 @@ onBeforeUnmount(() => {
   min-height: 44px;
   padding: 0 14px;
   border: 1px solid #d9c8ab;
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: #fdf9f2;
   color: #2a221c;
   font: inherit;
@@ -280,19 +283,33 @@ onBeforeUnmount(() => {
 
 @media (max-width: 640px) {
   .stroke-panel {
-    padding: 22px 18px;
+    margin-top: 18px;
+    padding: 22px 16px;
+    border-radius: 16px;
   }
 
   .writer-board {
     min-height: 0;
+    padding: 14px;
+    border-radius: 16px;
   }
 
   .writer-canvas {
-    width: 220px;
+    width: min(220px, 100%);
+  }
+
+  .player-controls {
+    padding: 18px 14px;
+    border-radius: 16px;
   }
 
   .button-group {
     grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .action-button {
+    width: 100%;
   }
 }
 </style>

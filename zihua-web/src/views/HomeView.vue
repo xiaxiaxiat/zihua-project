@@ -101,7 +101,7 @@ onMounted(() => {
           />
         </label>
         <div class="search-stats">
-          <p class="stats-text">已收录 {{ characters.length }} 个精选汉字</p>
+          <p class="stats-text stats-total">已收录 {{ characters.length }} 个精选汉字</p>
           <p class="stats-text">当前显示 {{ filteredCharacters.length }} 个汉字</p>
         </div>
       </div>
@@ -109,9 +109,10 @@ onMounted(() => {
       <p v-if="charactersLoading" class="status-text">正在加载字库……</p>
       <p v-else-if="charactersError" class="status-text error">字库加载失败，请检查后端是否启动</p>
       <template v-else>
-        <p v-if="filteredCharacters.length === 0" class="status-text empty-text">
-          未找到匹配的汉字，请换个关键词试试。
-        </p>
+        <div v-if="filteredCharacters.length === 0" class="empty-state">
+          <p class="empty-mark">未命中</p>
+          <p class="status-text empty-text">未找到匹配的汉字，请换个关键词试试。</p>
+        </div>
         <div v-else class="card-grid">
           <CharacterCard
             v-for="item in filteredCharacters"
@@ -135,7 +136,7 @@ onMounted(() => {
 <style scoped>
 .home {
   min-height: 100vh;
-  padding: 56px 24px 72px;
+  padding: 48px 24px 72px;
 }
 
 .hero,
@@ -145,11 +146,13 @@ onMounted(() => {
 }
 
 .hero {
-  margin-bottom: 32px;
-  padding: 40px 32px;
+  margin-bottom: 28px;
+  padding: 42px 36px;
   border: 1px solid #d7c6aa;
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(247, 239, 225, 0.92));
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(183, 65, 46, 0.08), transparent 24%),
+    linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(247, 239, 225, 0.92));
   box-shadow: 0 18px 40px rgba(47, 39, 32, 0.08);
 }
 
@@ -165,6 +168,7 @@ onMounted(() => {
   font-size: clamp(40px, 6vw, 64px);
   line-height: 1.1;
   color: #1f1a17;
+  letter-spacing: 0;
 }
 
 .hero-subtitle {
@@ -183,10 +187,10 @@ onMounted(() => {
 }
 
 .panel {
-  margin-top: 24px;
-  padding: 28px;
+  margin-top: 22px;
+  padding: 30px;
   border: 1px solid #decfb5;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: rgba(255, 252, 246, 0.94);
   box-shadow: 0 14px 30px rgba(58, 44, 34, 0.06);
 }
@@ -221,9 +225,9 @@ onMounted(() => {
 
 .search-toolbar {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
-  gap: 18px;
-  margin-bottom: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 300px);
+  gap: 20px;
+  margin-bottom: 24px;
   align-items: end;
 }
 
@@ -240,10 +244,10 @@ onMounted(() => {
 
 .search-input {
   width: 100%;
-  min-height: 48px;
-  padding: 0 16px;
+  min-height: 52px;
+  padding: 0 18px;
   border: 1px solid #decfb5;
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: #fffdf8;
   color: #2f2720;
   font: inherit;
@@ -256,12 +260,11 @@ onMounted(() => {
 }
 
 .search-stats {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px 16px;
+  display: grid;
+  gap: 6px;
+  padding: 14px 18px;
   border: 1px solid #e1d2bb;
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: #fffdf8;
 }
 
@@ -271,10 +274,16 @@ onMounted(() => {
   line-height: 1.7;
 }
 
+.stats-total {
+  color: #2f2720;
+  font-weight: 600;
+}
+
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: stretch;
 }
 
 .status-panel {
@@ -287,12 +296,27 @@ onMounted(() => {
   line-height: 1.7;
 }
 
-.empty-text {
-  padding: 18px;
+.empty-state {
+  display: grid;
+  place-items: center;
+  gap: 8px;
+  padding: 28px 18px;
   border: 1px dashed #dcc9ab;
-  border-radius: 12px;
-  background-color: #fffdf8;
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(249, 241, 230, 0.88));
+}
+
+.empty-mark {
+  margin: 0;
+  color: #b7412e;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.empty-text {
   color: #6b5d51;
+  text-align: center;
 }
 
 .error {
@@ -308,12 +332,23 @@ onMounted(() => {
 
 @media (max-width: 640px) {
   .home {
-    padding: 32px 16px 48px;
+    padding: 28px 14px 48px;
   }
 
   .hero,
   .panel {
-    padding: 24px 18px;
+    padding: 24px 16px;
+    border-radius: 16px;
+  }
+
+  .hero-description,
+  .status-text {
+    font-size: 16px;
+  }
+
+  .card-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
   }
 }
 </style>

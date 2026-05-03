@@ -113,12 +113,12 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
 .export-button {
   min-height: 46px;
-  padding: 0 22px;
+  padding: 0 24px;
   border: 1px solid #c4563f;
   border-radius: 999px;
   background-color: #fbf0ea;
@@ -153,5 +153,15 @@ onBeforeUnmount(() => {
 
 .status-text.error {
   color: #b23b2a;
+}
+
+@media (max-width: 640px) {
+  .export-actions {
+    align-items: stretch;
+  }
+
+  .export-button {
+    width: 100%;
+  }
 }
 </style>

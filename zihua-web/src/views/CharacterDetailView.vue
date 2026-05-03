@@ -67,7 +67,10 @@ watch(
 <template>
   <main class="detail-page">
     <section class="detail-shell">
-      <router-link to="/" class="back-link">返回首页</router-link>
+      <router-link to="/" class="back-link">
+        <span class="back-arrow">‹</span>
+        返回首页
+      </router-link>
 
       <section v-if="detailLoading" class="detail-panel">
         <p class="status-text">正在加载汉字详情……</p>
@@ -167,7 +170,7 @@ watch(
 <style scoped>
 .detail-page {
   min-height: 100vh;
-  padding: 40px 24px 72px;
+  padding: 36px 24px 72px;
 }
 
 .detail-shell {
@@ -181,12 +184,27 @@ watch(
   align-items: center;
   justify-content: center;
   min-height: 42px;
-  padding: 0 16px;
+  padding: 0 18px;
   border: 1px solid #decfb5;
   border-radius: 999px;
-  background-color: rgba(255, 252, 246, 0.94);
+  background-color: rgba(255, 252, 246, 0.96);
   color: #2a221c;
   text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.back-link:hover,
+.back-button:hover {
+  transform: translateY(-1px);
+  border-color: #c4563f;
+  box-shadow: 0 10px 22px rgba(58, 44, 34, 0.08);
+}
+
+.back-arrow {
+  margin-right: 8px;
+  color: #b7412e;
+  font-size: 22px;
+  line-height: 1;
 }
 
 .back-link {
@@ -200,7 +218,7 @@ watch(
 .detail-hero,
 .detail-panel {
   border: 1px solid #decfb5;
-  border-radius: 16px;
+  border-radius: 18px;
   background-color: rgba(255, 252, 246, 0.94);
   box-shadow: 0 14px 30px rgba(58, 44, 34, 0.06);
 }
@@ -208,8 +226,11 @@ watch(
 .detail-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
-  gap: 24px;
-  padding: 32px;
+  gap: 28px;
+  padding: 34px;
+  background:
+    radial-gradient(circle at 90% 12%, rgba(183, 65, 46, 0.08), transparent 26%),
+    rgba(255, 252, 246, 0.94);
 }
 
 .hero-mark,
@@ -233,6 +254,7 @@ watch(
   color: #1f1a17;
   font-size: clamp(54px, 10vw, 96px);
   line-height: 1;
+  letter-spacing: 0;
 }
 
 .hero-meta {
@@ -265,12 +287,12 @@ watch(
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
-  margin-top: 24px;
+  margin-top: 26px;
 }
 
 .detail-panel {
-  margin-top: 24px;
-  padding: 28px;
+  margin-top: 26px;
+  padding: 30px;
 }
 
 .section-heading {
@@ -318,9 +340,10 @@ watch(
   display: inline-flex;
   align-items: center;
   min-height: 34px;
-  margin-bottom: 14px;
-  padding: 0 12px;
+  margin-bottom: 16px;
+  padding: 0 14px;
   border-radius: 999px;
+  border: 1px solid rgba(183, 65, 46, 0.16);
   background-color: #fbf0ea;
   color: #a04835;
   font-size: 14px;
@@ -335,7 +358,7 @@ watch(
 }
 
 .culture-card-shell {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 
 .section-intro {
@@ -355,12 +378,29 @@ watch(
 
 @media (max-width: 640px) {
   .detail-page {
-    padding: 24px 16px 48px;
+    padding: 22px 14px 48px;
   }
 
   .detail-hero,
   .detail-panel {
-    padding: 22px 18px;
+    padding: 22px 16px;
+    border-radius: 16px;
+  }
+
+  .detail-grid,
+  .detail-panel {
+    margin-top: 18px;
+  }
+
+  .hero-summary,
+  .info-text,
+  .status-text,
+  .section-intro {
+    font-size: 15px;
+  }
+
+  .section-heading h2 {
+    font-size: 21px;
   }
 }
 </style>

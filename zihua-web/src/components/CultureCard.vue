@@ -81,14 +81,16 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
 <style scoped>
 .culture-card {
   width: min(100%, 720px);
+  max-width: 100%;
   margin: 0 auto;
   padding: 28px;
   border: 1px solid #d8c7ab;
-  border-radius: 20px;
+  border-radius: 18px;
   background:
     radial-gradient(circle at top right, rgba(183, 65, 46, 0.08), transparent 26%),
     linear-gradient(180deg, #fffdf7 0%, #f6efe3 100%);
   box-shadow: 0 18px 36px rgba(58, 44, 34, 0.08);
+  overflow-wrap: anywhere;
 }
 
 .card-header,
@@ -127,6 +129,7 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
   align-items: center;
   justify-content: center;
   width: 78px;
+  min-width: 78px;
   height: 78px;
   border: 2px solid #b7412e;
   border-radius: 18px;
@@ -174,7 +177,7 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
   margin-top: 24px;
   padding: 18px 20px;
   border: 1px solid #e0d1ba;
-  border-radius: 16px;
+  border-radius: 14px;
   background-color: rgba(255, 253, 248, 0.94);
 }
 
@@ -201,7 +204,7 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
 .info-block {
   padding: 18px;
   border: 1px solid #e0d1ba;
-  border-radius: 16px;
+  border-radius: 14px;
   background-color: rgba(255, 253, 248, 0.9);
 }
 
@@ -236,8 +239,8 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
 
 @media (max-width: 640px) {
   .culture-card {
-    padding: 22px 18px;
-    border-radius: 18px;
+    padding: 20px 14px;
+    border-radius: 16px;
   }
 
   .card-header,
@@ -247,6 +250,7 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
 
   .seal-mark {
     width: 64px;
+    min-width: 64px;
     height: 64px;
     border-radius: 14px;
     font-size: 20px;
@@ -255,10 +259,20 @@ const sealText = computed(() => props.detail?.cardMeta?.sealText || '字活');
 
   .card-content {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .hero-character {
+    font-size: clamp(74px, 28vw, 120px);
+  }
+
+  .summary-panel,
+  .info-block {
+    padding: 16px 14px;
   }
 
   .summary-text {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .footer-note {

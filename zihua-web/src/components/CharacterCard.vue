@@ -20,6 +20,7 @@ defineProps({
       </div>
       <p class="card-culture">{{ item.culture }}</p>
       <p class="card-summary">{{ item.cardMeta.summary }}</p>
+      <p class="card-action">查看字源演变</p>
     </div>
   </router-link>
 </template>
@@ -28,11 +29,11 @@ defineProps({
 .character-card {
   display: flex;
   gap: 18px;
-  align-items: center;
-  min-height: 220px;
-  padding: 22px 20px;
+  align-items: stretch;
+  min-height: 230px;
+  padding: 20px;
   border: 1px solid #e1d2bb;
-  border-radius: 14px;
+  border-radius: 16px;
   background-color: #fffdf8;
   color: inherit;
   text-decoration: none;
@@ -41,9 +42,14 @@ defineProps({
 }
 
 .character-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   border-color: #d4b791;
   box-shadow: 0 12px 24px rgba(58, 44, 34, 0.08);
+}
+
+.character-card:focus-visible {
+  outline: 3px solid rgba(183, 65, 46, 0.18);
+  outline-offset: 3px;
 }
 
 .card-character {
@@ -54,13 +60,18 @@ defineProps({
   min-width: 84px;
   height: 84px;
   border-radius: 12px;
-  background-color: #f3e6d4;
+  background:
+    radial-gradient(circle at 72% 18%, rgba(183, 65, 46, 0.12), transparent 30%),
+    #f3e6d4;
   color: #221a15;
   font-size: 42px;
   font-weight: 600;
 }
 
 .card-meta {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   min-width: 0;
 }
 
@@ -75,7 +86,8 @@ defineProps({
 .card-pinyin,
 .card-origin,
 .card-culture,
-.card-summary {
+.card-summary,
+.card-action {
   margin: 0;
 }
 
@@ -104,10 +116,20 @@ defineProps({
   line-height: 1.7;
 }
 
+.card-action {
+  margin-top: auto;
+  padding-top: 16px;
+  color: #b7412e;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 @media (max-width: 640px) {
   .character-card {
     min-height: 0;
     align-items: flex-start;
+    gap: 14px;
+    padding: 18px 16px;
   }
 
   .card-character {
