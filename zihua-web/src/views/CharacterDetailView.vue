@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 import { getCharacterById } from '../api/character';
 import EvolutionTimeline from '../components/EvolutionTimeline.vue';
 import EvolutionStageViewer from '../components/EvolutionStageViewer.vue';
+import StrokeOrderPlayer from '../components/StrokeOrderPlayer.vue';
 
 const route = useRoute();
 
@@ -126,6 +127,8 @@ watch(
             />
           </div>
         </section>
+
+        <StrokeOrderPlayer :character="detail.character" />
       </template>
     </section>
   </main>
