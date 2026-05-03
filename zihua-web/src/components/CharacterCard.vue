@@ -8,7 +8,10 @@ defineProps({
 </script>
 
 <template>
-  <article class="character-card">
+  <router-link
+    class="character-card"
+    :to="`/character/${item.id}`"
+  >
     <div class="card-character">{{ item.character }}</div>
     <div class="card-meta">
       <div class="card-topline">
@@ -18,7 +21,7 @@ defineProps({
       <p class="card-culture">{{ item.culture }}</p>
       <p class="card-summary">{{ item.cardMeta.summary }}</p>
     </div>
-  </article>
+  </router-link>
 </template>
 
 <style scoped>
@@ -31,6 +34,9 @@ defineProps({
   border: 1px solid #e1d2bb;
   border-radius: 14px;
   background-color: #fffdf8;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
