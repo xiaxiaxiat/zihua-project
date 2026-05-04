@@ -54,49 +54,49 @@
     "id": "shui",
     "character": "水",
     "pinyin": "shui",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字多像水流曲折流动之形，本义为水流、水。",
+    "culture": "水象征生命、滋养、流动与包容。",
     "kaishuCharacter": "水",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/shui/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/shui/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/shui/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/shui/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“水”字来源于古人对流水形态的观察。古文字中的“水”多呈流动曲折之形，表现水流向前、润泽万物的特征。它不仅记录了自然之水，也承载着中国文化中柔韧、包容、滋养生命的意象。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "水流成形，寓意滋养万物、顺势而行。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -105,49 +105,49 @@
     "id": "ri",
     "character": "日",
     "pinyin": "ri",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像太阳之形，本义为太阳。",
+    "culture": "日象征光明、时间、希望与生长。",
     "kaishuCharacter": "日",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/ri/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/ri/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/ri/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/ri/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“日”字取象于太阳。古人用近似圆形的符号表现太阳的形态，并由此引申出白天、时间和光明等意义。它体现了先民对自然天象的观察，也承载着希望、生长和秩序的文化含义。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "日出东方，寓意光明与希望。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -156,49 +156,49 @@
     "id": "yue",
     "character": "月",
     "pinyin": "yue",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像弯月之形，本义为月亮。",
+    "culture": "月象征夜空、时间流转、团圆与思念。",
     "kaishuCharacter": "月",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/yue/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/yue/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/yue/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/yue/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“月”字来源于弯月之形。古人观察月亮圆缺变化，用文字记录夜空中最醒目的天体之一。后来“月”不仅表示月亮，也与月份、时间、团圆和思念相联系，成为中国文化中富有诗意的符号。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "月有阴晴圆缺，寓意时间与情感流转。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -207,49 +207,49 @@
     "id": "ren-human",
     "character": "人",
     "pinyin": "ren",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像侧立的人形，本义为人。",
+    "culture": "人体现汉字从生活观察中取象造字。",
     "kaishuCharacter": "人",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/ren-human/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/ren-human/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/ren-human/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/ren-human/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“人”字来源于人的侧身形象。古文字以简洁线条表现人站立的姿态，反映出汉字取象生活、概括形体的造字方式。今天的“人”虽笔画简单，却承载着个体、群体和人与人关系的文化意义。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "一撇一捺，写出人的站立与支撑。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -258,49 +258,49 @@
     "id": "mu",
     "character": "木",
     "pinyin": "mu",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像树木，有树干、枝叶和根部，本义为树木。",
+    "culture": "木象征生长、根基、生命力。",
     "kaishuCharacter": "木",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/mu/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/mu/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/mu/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/mu/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“木”字取象于树木之形。古文字中常能看出树干、枝叶和根部的结构，表现植物向上生长、向下扎根的形态。它体现了古人对自然生命的观察，也象征根基、生长和持续的生命力。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "木有根枝，寓意生长与生命力。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -309,49 +309,49 @@
     "id": "huo",
     "character": "火",
     "pinyin": "huo",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像火焰上腾之形，本义为火。",
+    "culture": "火象征光热、生活、文明与创造。",
     "kaishuCharacter": "火",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/huo/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/huo/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/huo/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/huo/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“火”字来源于火焰燃烧的形态。古人以向上跳动的线条表现火光和热力，记录了生活中极重要的自然力量。火带来温暖、烹饪和光明，也象征文明的开启与创造的力量。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "火焰升腾，寓意光热与创造。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -360,49 +360,49 @@
     "id": "tian",
     "character": "田",
     "pinyin": "tian",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像分块的田地，本义为农田。",
+    "culture": "田体现农耕文明与土地观念。",
     "kaishuCharacter": "田",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/tian/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/tian/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/tian/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/tian/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“田”字取象于划分整齐的田地。古文字用方框和交叉线表现田畴边界，反映出古代农耕生活对土地的依赖。它不仅表示农田，也承载着耕作、收获、安居和农耕文明的记忆。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "田畴有界，寓意耕作与安居。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -462,49 +462,49 @@
     "id": "an",
     "character": "安",
     "pinyin": "an",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意字（常见解释）",
+    "meaning": "常见解释与居室安定相关，后表示安定、安宁。",
+    "culture": "安象征居所安稳、内心平和与生活宁定。",
     "kaishuCharacter": "安",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/an/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/an/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/an/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/an/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“安”字常被解释为与居室安定有关，后来逐渐引申为安宁、安心和安稳等意义。它体现了人们对稳定生活和内心平和的朴素向往，在日常语言和文化表达中都十分常见。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "安居有宁，寓意平和与稳定。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -513,49 +513,49 @@
     "id": "he",
     "character": "和",
     "pinyin": "he",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "形声字",
+    "meaning": "与声音相应、关系协调相关，后引申为和谐、和平。",
+    "culture": "和象征协调、包容、和睦相处。",
     "kaishuCharacter": "和",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/he/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/he/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/he/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/he/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“和”字与声音相应、彼此协调的意义有关，后来逐渐引申为和睦、和平与和谐。它体现了中国文化重视关系平衡与相互包容的观念，也常被用来表达人与人、人与自然之间的协调状态。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "和而不同，寓意协调共生。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -564,49 +564,49 @@
     "id": "xin-letter",
     "character": "信",
     "pinyin": "xin",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意字",
+    "meaning": "从人从言，常解释为人的言语可信，本义与诚实守信相关。",
+    "culture": "信象征诚信、承诺、言行一致。",
     "kaishuCharacter": "信",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/xin-letter/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/xin-letter/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/xin-letter/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/xin-letter/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“信”字常被解释为从人从言，强调人的言语应当真实可信。它把“人”和“言”联系在一起，表现出古人对承诺、信誉和道德责任的重视。在今天，“信”仍是诚信社会和人际交往的重要价值。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "人言为信，寓意诚实守诺。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -615,49 +615,49 @@
     "id": "ren-virtue",
     "character": "仁",
     "pinyin": "ren",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意字",
+    "meaning": "从人从二，常解释为人与人之间的亲爱关系。",
+    "culture": "仁象征仁爱、关怀、伦理与善意。",
     "kaishuCharacter": "仁",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/ren-virtue/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/ren-virtue/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/ren-virtue/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/ren-virtue/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“仁”字常被解释为从人从二，强调人与人之间的关系。它不只是个人品质，也是一种面向他人的关怀与善意。在中国传统文化中，“仁”是重要的伦理观念，体现了同情、宽厚和爱人的精神。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "二人相亲，寓意仁爱与关怀。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -666,49 +666,49 @@
     "id": "li",
     "character": "礼",
     "pinyin": "li",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意兼形声相关解释待校",
+    "meaning": "与祭祀、仪节、规范相关，后引申为礼仪、礼法。",
+    "culture": "礼象征秩序、尊重、文明规范。",
     "kaishuCharacter": "礼",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/li/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/li/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/li/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/li/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“礼”字与祭祀仪节和社会规范有关。它最初联系着敬神、祭祀和仪式，后来逐渐扩展为人与人之间的礼貌、制度和秩序。礼体现了古人对尊重、分寸和社会和谐的重视。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "礼有仪节，寓意尊重与秩序。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -717,49 +717,49 @@
     "id": "fu",
     "character": "福",
     "pinyin": "fu",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意兼形声相关解释待校",
+    "meaning": "与祭祀、祈求神明赐福相关，后表示幸福、福气。",
+    "culture": "福象征吉祥、祝愿、幸福生活。",
     "kaishuCharacter": "福",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/fu/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/fu/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/fu/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/fu/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“福”字与祭祀和祈愿有关，表达古人对安定、丰足和幸福生活的向往。后来“福”成为最常见的吉祥字之一，广泛出现在节庆、门饰和祝福语中，寄托人们对美好生活的期盼。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "福至心安，寓意吉祥圆满。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -768,49 +768,49 @@
     "id": "chun",
     "character": "春",
     "pinyin": "chun",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意兼形声相关解释待校",
+    "meaning": "与草木生长、日光和季节相关，本义为春季。",
+    "culture": "春象征生机、更新、希望。",
     "kaishuCharacter": "春",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/chun/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/chun/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/chun/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/chun/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“春”字与季节变化和万物生长有关。春天草木萌发、日光渐暖，因此“春”常被赋予生机、更新和希望的意义。它不仅表示一年之始的重要季节，也常象征新的开始和生命力。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "春回大地，寓意新生与希望。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -819,49 +819,49 @@
     "id": "long",
     "character": "龙",
     "pinyin": "long",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形相关解释待校",
+    "meaning": "古文字多表现传说中龙的形象，后成为中华文化重要祥瑞符号。",
+    "culture": "龙象征力量、祥瑞、精神图腾与文化认同。",
     "kaishuCharacter": "龙",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/long/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/long/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/long/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/long/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“龙”是中华文化中极具代表性的符号。古文字中的龙形表现传说生灵的形象特征，后来逐渐成为祥瑞、力量和精神象征。它不仅出现在神话传说中，也承载着人们对气象、生命力和文化认同的想象。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "龙腾云起，寓意力量与祥瑞。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -870,49 +870,49 @@
     "id": "ma",
     "character": "马",
     "pinyin": "ma",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像马的侧面形象，本义为马。",
+    "culture": "马象征奔腾、速度、远行与力量。",
     "kaishuCharacter": "马",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/ma/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/ma/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/ma/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/ma/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“马”字来源于马的形象。古文字常表现马首、马身和四肢等特征，体现古人对动物形态的观察。马在古代交通、战争和生产生活中都很重要，因此也常象征速度、力量、远行和进取精神。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "马行千里，寓意奔腾进取。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -921,49 +921,49 @@
     "id": "yu",
     "character": "鱼",
     "pinyin": "yu",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像鱼的形体，本义为鱼。",
+    "culture": "鱼象征丰足、生命、水域与年年有余。",
     "kaishuCharacter": "鱼",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/yu/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/yu/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/yu/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/yu/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“鱼”字取象于鱼的形态。古文字常能看出鱼头、鱼身和鱼尾的轮廓，表现水中生灵的形象。由于“鱼”与“余”谐音，它在民俗中也常被赋予丰足、富余和吉祥的寓意。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "鱼跃水中，寓意丰足有余。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -972,49 +972,49 @@
     "id": "niao",
     "character": "鸟",
     "pinyin": "niao",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像鸟形，本义为鸟。",
+    "culture": "鸟象征飞翔、自由、自然生灵。",
     "kaishuCharacter": "鸟",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/niao/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/niao/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/niao/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/niao/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“鸟”字来源于鸟类的形象。古文字常突出鸟的头、身、翅和尾等特征，体现古人对自然生灵的观察。鸟能飞翔于天空，因此常与自由、远方、生命活力和自然意象联系在一起。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "鸟翔于天，寓意自由与生机。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1023,49 +1023,49 @@
     "id": "xin-heart",
     "character": "心",
     "pinyin": "xin",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形字",
+    "meaning": "古文字像心脏形，本义为心。",
+    "culture": "心象征情感、思想、内在精神。",
     "kaishuCharacter": "心",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/xin-heart/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/xin-heart/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/xin-heart/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/xin-heart/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“心”字取象于心脏形态。古人将心视为情感、思考和精神活动的重要所在，因此“心”不仅表示身体器官，也逐渐承载了内心、情绪、志向和品格等丰富意义。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "心为内府，寓意情感与精神。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1074,49 +1074,49 @@
     "id": "meng",
     "character": "梦",
     "pinyin": "meng",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意兼形声相关解释待校",
+    "meaning": "与睡眠中所见景象有关，表示梦境。",
+    "culture": "梦象征想象、愿望、精神世界。",
     "kaishuCharacter": "梦",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/meng/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/meng/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/meng/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/meng/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“梦”字表示睡眠中出现的景象，也常被引申为愿望和想象。梦连接现实与内心世界，承载人们对未来、理想和未知的想象。在文化表达中，“梦”常象征追求、希望和精神空间。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "梦生心间，寓意想象与愿望。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1125,49 +1125,49 @@
     "id": "xue",
     "character": "学",
     "pinyin": "xue",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意相关解释待校",
+    "meaning": "与学习、教导、模仿相关，表示学习。",
+    "culture": "学象征求知、传承、成长。",
     "kaishuCharacter": "学",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/xue/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/xue/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/xue/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/xue/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“学”字与学习、教导和模仿有关。它反映了知识传递和人成长的过程，也体现了中国文化对教育的重视。学习不仅是获得知识，也是理解传统、提升自我和连接前人的方式。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "学以致知，寓意求知成长。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1176,49 +1176,49 @@
     "id": "wen",
     "character": "文",
     "pinyin": "wen",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "象形相关解释待校",
+    "meaning": "与纹饰、文采、书写符号有关。",
+    "culture": "文象征文字、文化、文明表达。",
     "kaishuCharacter": "文",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/wen/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/wen/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/wen/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/wen/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“文”字早期与纹饰、线条和符号有关，后来逐渐扩展为文字、文采和文化。它体现了人类通过符号记录经验、表达思想的能力，也是文明传承的重要基础。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "文以载道，寓意文化表达。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1227,49 +1227,49 @@
     "id": "guo",
     "character": "国",
     "pinyin": "guo",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意字",
+    "meaning": "与城邑、疆域、防卫相关，表示国家、地域共同体。",
+    "culture": "国象征家国、疆域、共同身份。",
     "kaishuCharacter": "国",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/guo/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/guo/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/guo/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/guo/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“国”字与城邑、疆域和守护有关，体现人们对共同生活空间的认识。它从地域和防卫的意义逐渐扩展为国家、家国和共同体身份，承载着人们对土地、文化和归属的情感。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "国有疆域，寓意共同家园。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1278,49 +1278,49 @@
     "id": "zhong",
     "character": "中",
     "pinyin": "zhong",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "指事字",
+    "meaning": "表示中间、中心之意。",
+    "culture": "中象征中正、中心、平衡。",
     "kaishuCharacter": "中",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/zhong/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/zhong/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/zhong/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/zhong/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“中”字表示中间、中心的意思。它体现了古人对方位和秩序的认识，也逐渐发展出中正、适度和平衡等文化含义。在中国文化中，“中”常与不偏不倚、调和有度的观念相联系。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "中正不偏，寓意平衡与中心。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1329,49 +1329,49 @@
     "id": "hua",
     "character": "华",
     "pinyin": "hua",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "形声兼会意相关解释待校",
+    "meaning": "与花、光彩、美盛等意义相关，后用于中华、华美。",
+    "culture": "华象征美好、光彩、中华文化。",
     "kaishuCharacter": "华",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/hua/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/hua/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/hua/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/hua/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“华”字与花、美丽和光彩等意义相关，后来常用于表示华美、繁盛，也用于“中华”等文化表达。它承载了美好、光辉和文化认同等意义，是具有鲜明审美色彩的汉字。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "华彩生辉，寓意光彩与美盛。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1431,49 +1431,49 @@
     "id": "de",
     "character": "德",
     "pinyin": "de",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意兼形声相关解释待校",
+    "meaning": "与行为、正直、内心修养相关，表示德行。",
+    "culture": "德象征品德、修养、价值准则。",
     "kaishuCharacter": "德",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/de/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/de/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/de/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/de/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“德”字与行为方向、内心修养和正直品格有关。它不仅表示个人品质，也体现社会共同认可的价值准则。在传统文化中，德常与修身、行善、守正和责任相联系。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "德行于心，寓意修养与正道。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
@@ -1482,49 +1482,49 @@
     "id": "shan-kindness",
     "character": "善",
     "pinyin": "shan",
-    "origin": "字源解释待人工校对",
-    "meaning": "本义说明待人工校对，当前为页面结构占位内容。",
-    "culture": "文化寓意待人工校对，当前用于前端展示占位。",
+    "origin": "会意相关解释待校",
+    "meaning": "与美好、吉祥、言行良好相关，表示善良、善行。",
+    "culture": "善象征善意、向善、道德理想。",
     "kaishuCharacter": "善",
     "stages": [
       {
         "key": "jiaguwen",
         "name": "甲骨文",
         "imageUrl": "/character-images/shan-kindness/jgw.png",
-        "description": "甲骨文阶段字形说明待人工校对。"
+        "description": "该字甲骨文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "jinwen",
         "name": "金文",
         "imageUrl": "/character-images/shan-kindness/jw.png",
-        "description": "金文阶段字形说明待人工校对。"
+        "description": "该字金文阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "xiaozhuan",
         "name": "小篆",
         "imageUrl": "/character-images/shan-kindness/xz.png",
-        "description": "小篆阶段字形说明待人工校对。"
+        "description": "该字小篆阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "lishu",
         "name": "隶书",
         "imageUrl": "/character-images/shan-kindness/ls.png",
-        "description": "隶书阶段字形说明待人工校对。"
+        "description": "该字隶书阶段字形说明待结合可靠字形资料进一步校对。"
       },
       {
         "key": "kaishu",
         "name": "楷书",
         "imageUrl": null,
-        "description": "楷书阶段字形说明待人工校对。"
+        "description": "该字楷书阶段字形说明待结合可靠字形资料进一步校对。"
       }
     ],
     "story": {
       "title": "字源故事",
-      "body": "该字源故事文本待人工校对，当前先保留简短占位说明，后续将根据可靠资料补充。",
+      "body": "“善”字表示美好、良善和合宜的行为。它既可以指人的品德，也可以指有益的行动和积极的选择。在文化表达中，“善”象征向好、向美、向正的价值追求。",
       "reviewed": false
     },
     "cardMeta": {
-      "summary": "字义概要待人工校对。",
+      "summary": "善念成行，寓意向善与美好。",
       "sealText": "字活"
     },
     "note": "待人工校对字源资料与故事文本"
