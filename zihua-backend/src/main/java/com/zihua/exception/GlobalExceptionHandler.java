@@ -19,6 +19,22 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
+    @ExceptionHandler(ServiceUnavailableException.class)
+    public ResponseEntity<Map<String, Object>> handleServiceUnavailable(ServiceUnavailableException exception) {
+        Map<String, Object> response = new LinkedHashMap<>();
+        response.put("status", HttpStatus.SERVICE_UNAVAILABLE.value());
+        response.put("message", exception.getMessage());
+        return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(response);
+    }
+
+    @ExceptionHandler(BadGatewayException.class)
+    public ResponseEntity<Map<String, Object>> handleBadGateway(BadGatewayException exception) {
+        Map<String, Object> response = new LinkedHashMap<>();
+        response.put("status", HttpStatus.BAD_GATEWAY.value());
+        response.put("message", exception.getMessage());
+        return ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(response);
+    }
+
     @ExceptionHandler(NotFoundException.class)
     public ResponseEntity<Map<String, Object>> handleNotFound(NotFoundException exception) {
         Map<String, Object> response = new LinkedHashMap<>();

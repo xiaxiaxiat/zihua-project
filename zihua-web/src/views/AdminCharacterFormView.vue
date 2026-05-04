@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import { generateCharacterDraft } from '../api/adminAi';
 import {
   createAdminCharacter,
   deleteAdminCharacter,
@@ -11,12 +12,17 @@ import {
 const route = useRoute();
 const router = useRouter();
 
+const MESSAGE_INPUT_CHARACTER = '\u8bf7\u5148\u8f93\u5165\u6c49\u5b57';
+const MESSAGE_INPUT_CODE = '\u8bf7\u5148\u8f93\u5165 code';
+const MESSAGE_AI_SUCCESS = '\u0041\u0049 \u8349\u7a3f\u5df2\u751f\u6210\uff0c\u8bf7\u4eba\u5de5\u5ba1\u6838\u540e\u4fdd\u5b58';
+const MESSAGE_AI_FAILURE = '\u0041\u0049 \u8349\u7a3f\u751f\u6210\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5';
+
 const DEFAULT_STAGES = [
-  { stageKey: 'jiaguwen', stageName: '甲骨文', sortOrder: 1 },
-  { stageKey: 'jinwen', stageName: '金文', sortOrder: 2 },
-  { stageKey: 'xiaozhuan', stageName: '小篆', sortOrder: 3 },
-  { stageKey: 'lishu', stageName: '隶书', sortOrder: 4 },
-  { stageKey: 'kaishu', stageName: '楷书', sortOrder: 5 }
+  { stageKey: 'jiaguwen', stageName: '\u7532\u9aa8\u6587', sortOrder: 1 },
+  { stageKey: 'jinwen', stageName: '\u91d1\u6587', sortOrder: 2 },
+  { stageKey: 'xiaozhuan', stageName: '\u5c0f\u7bea', sortOrder: 3 },
+  { stageKey: 'lishu', stageName: '\u96b6\u4e66', sortOrder: 4 },
+  { stageKey: 'kaishu', stageName: '\u6977\u4e66', sortOrder: 5 }
 ];
 
 const createStage = (stage) => ({
@@ -48,13 +54,40 @@ const form = ref(createEmptyForm());
 const loading = ref(false);
 const saving = ref(false);
 const deleting = ref(false);
-const errorMessage = ref('');
+const aiLoading = ref(false);
+const loadErrorMessage = ref('');
+const formMessage = ref('');
+const formMessageType = ref('error');
 
 const isEditMode = computed(() => Boolean(route.params.id));
-const pageTitle = computed(() => (isEditMode.value ? '编辑汉字' : '新增汉字'));
-const submitLabel = computed(() => (saving.value ? '保存中...' : '保存汉字'));
+const pageTitle = computed(() => (
+  isEditMode.value
+    ? '\u7f16\u8f91\u6c49\u5b57'
+    : '\u65b0\u589e\u6c49\u5b57'
+));
+const submitLabel = computed(() => (
+  saving.value
+    ? '\u4fdd\u5b58\u4e2d...'
+    : '\u4fdd\u5b58\u6c49\u5b57'
+));
+const aiButtonLabel = computed(() => (
+  aiLoading.value
+    ? '\u0041\u0049 \u6b63\u5728\u751f\u6210\u8349\u7a3f\u2026\u2026'
+    : '\u0041\u0049 \u8f85\u52a9\u751f\u6210'
+));
 
-const readErrorMessage = (error, fallback) => error?.response?.data?.message || fallback;
+const readErrorMessage = (error, fallback) =>
+  error?.response?.data?.message || error?.message || fallback;
+
+const setFormMessage = (message, type = 'error') => {
+  formMessage.value = message;
+  formMessageType.value = type;
+};
+
+const clearFormMessage = () => {
+  formMessage.value = '';
+  formMessageType.value = 'error';
+};
 
 const normalizeStages = (stages) => {
   if (!Array.isArray(stages) || stages.length === 0) {
@@ -94,22 +127,72 @@ const applyResponseToForm = (data) => {
   };
 };
 
+const applyAiDraftToForm = (data) => {
+  const nextForm = form.value;
+
+  if (typeof data.origin === 'string') {
+    nextForm.origin = data.origin;
+  }
+  if (typeof data.meaning === 'string') {
+    nextForm.meaning = data.meaning;
+  }
+  if (typeof data.culture === 'string') {
+    nextForm.culture = data.culture;
+  }
+  if (typeof data.storyTitle === 'string') {
+    nextForm.storyTitle = data.storyTitle;
+  }
+  if (typeof data.storyBody === 'string') {
+    nextForm.storyBody = data.storyBody;
+  }
+  if (typeof data.cardSummary === 'string') {
+    nextForm.cardSummary = data.cardSummary;
+  }
+  if (typeof data.sealText === 'string') {
+    nextForm.sealText = data.sealText;
+  }
+  if (typeof data.note === 'string') {
+    nextForm.note = data.note;
+  }
+
+  const aiStages = Array.isArray(data.stages) ? data.stages : [];
+  nextForm.stages = nextForm.stages.map((stage) => {
+    const draftStage = aiStages.find((item) => item.stageKey === stage.stageKey);
+    if (!draftStage) {
+      return stage;
+    }
+
+    return {
+      ...stage,
+      imageUrl: draftStage.imageUrl ?? stage.imageUrl,
+      description: draftStage.description ?? stage.description
+    };
+  });
+
+  nextForm.storyReviewed = false;
+};
+
 const fetchCharacter = async () => {
   if (!isEditMode.value) {
     form.value = createEmptyForm();
     loading.value = false;
-    errorMessage.value = '';
+    loadErrorMessage.value = '';
+    clearFormMessage();
     return;
   }
 
   loading.value = true;
-  errorMessage.value = '';
+  loadErrorMessage.value = '';
+  clearFormMessage();
 
   try {
     const response = await getAdminCharacterByCode(route.params.id);
     applyResponseToForm(response.data);
   } catch (error) {
-    errorMessage.value = readErrorMessage(error, '编辑数据加载失败，请检查后端状态。');
+    loadErrorMessage.value = readErrorMessage(
+      error,
+      '\u7f16\u8f91\u6570\u636e\u52a0\u8f7d\u5931\u8d25\uff0c\u8bf7\u68c0\u67e5\u540e\u7aef\u72b6\u6001\u3002'
+    );
   } finally {
     loading.value = false;
   }
@@ -142,9 +225,43 @@ const goBackToList = () => {
   router.push('/admin/characters');
 };
 
+const handleAiGenerate = async () => {
+  clearFormMessage();
+
+  if (!form.value.character.trim()) {
+    setFormMessage(MESSAGE_INPUT_CHARACTER);
+    return;
+  }
+
+  if (!form.value.code.trim()) {
+    setFormMessage(MESSAGE_INPUT_CODE);
+    return;
+  }
+
+  aiLoading.value = true;
+
+  try {
+    const response = await generateCharacterDraft({
+      code: form.value.code,
+      character: form.value.character,
+      pinyin: form.value.pinyin,
+      existingOrigin: form.value.origin,
+      existingMeaning: form.value.meaning,
+      existingCulture: form.value.culture
+    });
+
+    applyAiDraftToForm(response.data || {});
+    setFormMessage(MESSAGE_AI_SUCCESS, 'success');
+  } catch (error) {
+    setFormMessage(readErrorMessage(error, MESSAGE_AI_FAILURE));
+  } finally {
+    aiLoading.value = false;
+  }
+};
+
 const handleSubmit = async () => {
   saving.value = true;
-  errorMessage.value = '';
+  clearFormMessage();
 
   try {
     const payload = buildPayload();
@@ -157,7 +274,7 @@ const handleSubmit = async () => {
 
     goBackToList();
   } catch (error) {
-    errorMessage.value = readErrorMessage(error, '保存失败，请稍后重试。');
+    setFormMessage(readErrorMessage(error, '\u4fdd\u5b58\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002'));
   } finally {
     saving.value = false;
   }
@@ -168,19 +285,21 @@ const handleDelete = async () => {
     return;
   }
 
-  const confirmed = window.confirm(`确认删除汉字“${form.value.character || route.params.id}”吗？`);
+  const confirmed = window.confirm(
+    `\u786e\u8ba4\u5220\u9664\u6c49\u5b57\u201c${form.value.character || route.params.id}\u201d\u5417\uff1f`
+  );
   if (!confirmed) {
     return;
   }
 
   deleting.value = true;
-  errorMessage.value = '';
+  clearFormMessage();
 
   try {
     await deleteAdminCharacter(route.params.id);
     goBackToList();
   } catch (error) {
-    errorMessage.value = readErrorMessage(error, '删除失败，请稍后重试。');
+    setFormMessage(readErrorMessage(error, '\u5220\u9664\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002'));
   } finally {
     deleting.value = false;
   }
@@ -209,18 +328,32 @@ watch(
       <section class="panel hero-panel">
         <p class="panel-mark">管理员端</p>
         <h1>{{ pageTitle }}</h1>
-        <p class="panel-description">维护汉字主信息、字源故事和五阶段字形数据，保存后游客端将读取数据库最新内容。</p>
+        <p class="panel-description">
+          维护汉字主信息、字源故事和五阶段字形数据。AI 只会生成一份未审核草稿，最终内容仍需要你人工校对并点击保存。
+        </p>
       </section>
 
       <section class="panel form-panel">
         <p v-if="loading" class="status-text">正在加载表单数据...</p>
-        <p v-else-if="errorMessage" class="status-text error">{{ errorMessage }}</p>
+        <p v-else-if="loadErrorMessage" class="status-text error">{{ loadErrorMessage }}</p>
 
         <form v-else class="form-grid" @submit.prevent="handleSubmit">
+          <p v-if="formMessage" class="status-text" :class="formMessageType">{{ formMessage }}</p>
+
           <section class="form-section">
-            <div class="section-heading">
-              <span class="section-dot"></span>
-              <h2>主信息</h2>
+            <div class="section-toolbar">
+              <div class="section-heading">
+                <span class="section-dot"></span>
+                <h2>主信息</h2>
+              </div>
+              <button
+                class="secondary-button"
+                type="button"
+                :disabled="aiLoading || saving || deleting"
+                @click="handleAiGenerate"
+              >
+                {{ aiButtonLabel }}
+              </button>
             </div>
 
             <div class="field-grid">
@@ -469,6 +602,10 @@ watch(
   color: #b23b2a;
 }
 
+.success {
+  color: #2f6d43;
+}
+
 .form-grid {
   display: grid;
   gap: 24px;
@@ -477,6 +614,14 @@ watch(
 .form-section {
   display: grid;
   gap: 18px;
+}
+
+.section-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
 }
 
 .section-heading {
@@ -622,7 +767,8 @@ watch(
     grid-template-columns: 1fr;
   }
 
-  .stage-head {
+  .stage-head,
+  .section-toolbar {
     flex-direction: column;
     align-items: flex-start;
   }
