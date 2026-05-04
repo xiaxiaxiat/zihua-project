@@ -11,6 +11,10 @@ public interface HanziCharacterRepository extends JpaRepository<HanziCharacter, 
 
     List<HanziCharacter> findAllByOrderByIdAsc();
 
+    List<HanziCharacter> findAllByOrderByUpdatedAtDescIdAsc();
+
+    boolean existsByCode(String code);
+
     @EntityGraph(attributePaths = "stages")
     Optional<HanziCharacter> findByCode(String code);
 }

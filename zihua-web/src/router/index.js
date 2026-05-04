@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import CharacterDetailView from '../views/CharacterDetailView.vue';
+import AdminCharacterListView from '../views/AdminCharacterListView.vue';
+import AdminCharacterFormView from '../views/AdminCharacterFormView.vue';
 
 const routes = [
   {
@@ -12,6 +14,21 @@ const routes = [
     path: '/character/:id',
     name: 'character-detail',
     component: CharacterDetailView
+  },
+  {
+    path: '/admin/characters',
+    name: 'admin-character-list',
+    component: AdminCharacterListView
+  },
+  {
+    path: '/admin/characters/new',
+    name: 'admin-character-new',
+    component: AdminCharacterFormView
+  },
+  {
+    path: '/admin/characters/:id/edit',
+    name: 'admin-character-edit',
+    component: AdminCharacterFormView
   }
 ];
 
