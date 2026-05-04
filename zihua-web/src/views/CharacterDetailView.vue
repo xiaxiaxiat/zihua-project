@@ -2,6 +2,7 @@
 import { computed, onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { getCharacterById } from '../api/character';
+import { generateWordAssociation } from '../api/wordAssociation';
 import CardExportActions from '../components/CardExportActions.vue';
 import CultureCard from '../components/CultureCard.vue';
 import EvolutionStageViewer from '../components/EvolutionStageViewer.vue';
@@ -14,6 +15,10 @@ const detail = ref(null);
 const detailLoading = ref(true);
 const detailError = ref(false);
 const activeStageKey = ref('');
+
+const wordAssociationLoading = ref(false);
+const wordAssociationError = ref('');
+const wordAssociationResult = ref(null);
 
 const activeStage = computed(() => {
   if (!detail.value?.stages?.length) {
@@ -31,11 +36,21 @@ const cultureCardElementId = computed(() => {
   return `culture-card-${detail.value.id}`;
 });
 
-const fetchDetail = async () => {
+const readErrorMessage = (error, fallback) =>
+  error?.response?.data?.message || error?.message || fallback;
+
+const resetDetailState = () => {
   detailLoading.value = true;
   detailError.value = false;
   detail.value = null;
   activeStageKey.value = '';
+  wordAssociationLoading.value = false;
+  wordAssociationError.value = '';
+  wordAssociationResult.value = null;
+};
+
+const fetchDetail = async () => {
+  resetDetailState();
 
   try {
     const response = await getCharacterById(route.params.id);
@@ -45,6 +60,34 @@ const fetchDetail = async () => {
     detailError.value = true;
   } finally {
     detailLoading.value = false;
+  }
+};
+
+const generateAssociations = async () => {
+  if (!detail.value) {
+    return;
+  }
+
+  wordAssociationLoading.value = true;
+  wordAssociationError.value = '';
+
+  try {
+    const response = await generateWordAssociation({
+      code: detail.value.id,
+      character: detail.value.character,
+      pinyin: detail.value.pinyin,
+      meaning: detail.value.meaning,
+      culture: detail.value.culture
+    });
+
+    wordAssociationResult.value = response.data;
+  } catch (error) {
+    wordAssociationError.value = readErrorMessage(
+      error,
+      'AI 组词生成失败，请稍后重试'
+    );
+  } finally {
+    wordAssociationLoading.value = false;
   }
 };
 
@@ -68,7 +111,7 @@ watch(
   <main class="detail-page">
     <section class="detail-shell">
       <router-link to="/" class="back-link">
-        <span class="back-arrow">‹</span>
+        <span class="back-arrow">←</span>
         返回首页
       </router-link>
 
@@ -97,7 +140,7 @@ watch(
         </section>
 
         <section class="detail-grid">
-          <article class="detail-panel">
+          <article class="detail-panel compact-panel">
             <div class="section-heading">
               <span class="section-dot"></span>
               <h2>字义与文化</h2>
@@ -112,7 +155,7 @@ watch(
             </div>
           </article>
 
-          <article class="detail-panel">
+          <article class="detail-panel compact-panel">
             <div class="section-heading">
               <span class="section-dot"></span>
               <h2>{{ detail.story.title }}</h2>
@@ -141,6 +184,54 @@ watch(
               :kaishu-character="detail.kaishuCharacter"
               :character="detail.character"
             />
+          </div>
+        </section>
+
+        <section class="detail-panel association-panel">
+          <div class="association-header">
+            <div class="section-heading">
+              <span class="section-dot"></span>
+              <h2>AI 组词联想</h2>
+            </div>
+            <button
+              type="button"
+              class="association-button"
+              :disabled="wordAssociationLoading"
+              @click="generateAssociations"
+            >
+              {{ wordAssociationLoading ? 'AI 正在生成组词……' : '生成组词联想' }}
+            </button>
+          </div>
+
+          <p class="section-intro">
+            基于当前汉字生成常见组词和文化联想，帮助你从词语使用中理解这个字的更多表达方式。
+          </p>
+
+          <p v-if="wordAssociationError" class="status-text error">{{ wordAssociationError }}</p>
+
+          <div v-if="wordAssociationResult?.words?.length" class="word-grid">
+            <article
+              v-for="(item, index) in wordAssociationResult.words"
+              :key="`${item.word}-${index}`"
+              class="word-card"
+            >
+              <div class="word-head">
+                <h3>{{ item.word }}</h3>
+                <p v-if="item.pinyin" class="word-pinyin">{{ item.pinyin }}</p>
+              </div>
+              <div class="word-section">
+                <p class="word-label">含义</p>
+                <p class="word-text">{{ item.meaning }}</p>
+              </div>
+              <div class="word-section">
+                <p class="word-label">联想</p>
+                <p class="word-text">{{ item.usage }}</p>
+              </div>
+              <div v-if="item.example" class="word-section">
+                <p class="word-label">例句</p>
+                <p class="word-text">{{ item.example }}</p>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -179,25 +270,44 @@ watch(
 }
 
 .back-link,
-.back-button {
+.back-button,
+.association-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-height: 42px;
   padding: 0 18px;
-  border: 1px solid #decfb5;
   border-radius: 999px;
-  background-color: rgba(255, 252, 246, 0.96);
-  color: #2a221c;
+  font: inherit;
   text-decoration: none;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+.back-link,
+.back-button {
+  border: 1px solid #decfb5;
+  background-color: rgba(255, 252, 246, 0.96);
+  color: #2a221c;
+}
+
+.association-button {
+  border: 1px solid #b7412e;
+  background-color: #b7412e;
+  color: #fffaf4;
+  cursor: pointer;
+}
+
 .back-link:hover,
-.back-button:hover {
+.back-button:hover,
+.association-button:hover:not(:disabled) {
   transform: translateY(-1px);
   border-color: #c4563f;
   box-shadow: 0 10px 22px rgba(58, 44, 34, 0.08);
+}
+
+.association-button:disabled {
+  cursor: wait;
+  opacity: 0.75;
 }
 
 .back-arrow {
@@ -239,7 +349,10 @@ watch(
 .info-text,
 .status-text,
 .section-intro,
-.review-note {
+.review-note,
+.word-label,
+.word-text,
+.word-pinyin {
   margin: 0;
 }
 
@@ -254,7 +367,6 @@ watch(
   color: #1f1a17;
   font-size: clamp(54px, 10vw, 96px);
   line-height: 1;
-  letter-spacing: 0;
 }
 
 .hero-meta {
@@ -295,6 +407,10 @@ watch(
   padding: 30px;
 }
 
+.compact-panel {
+  margin-top: 0;
+}
+
 .section-heading {
   display: flex;
   align-items: center;
@@ -321,7 +437,8 @@ watch(
   margin-top: 22px;
 }
 
-.info-label {
+.info-label,
+.word-label {
   margin-bottom: 10px;
   color: #b7412e;
   font-size: 14px;
@@ -330,7 +447,8 @@ watch(
 
 .info-text,
 .status-text,
-.section-intro {
+.section-intro,
+.word-text {
   color: #4e4136;
   font-size: 16px;
   line-height: 1.9;
@@ -353,6 +471,58 @@ watch(
   margin-top: 20px;
 }
 
+.association-panel {
+  overflow: hidden;
+}
+
+.association-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.word-card {
+  padding: 22px;
+  border: 1px solid #e6d7c1;
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(183, 65, 46, 0.06), transparent 24%),
+    #fffdf8;
+}
+
+.word-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 14px;
+  margin-bottom: 16px;
+}
+
+.word-head h3 {
+  margin: 0;
+  color: #1f1a17;
+  font-size: 26px;
+}
+
+.word-pinyin {
+  color: #8a5b3d;
+  font-size: 14px;
+}
+
+.word-section + .word-section {
+  margin-top: 16px;
+}
+
 .card-section {
   overflow: hidden;
 }
@@ -362,7 +532,7 @@ watch(
 }
 
 .section-intro {
-  max-width: 640px;
+  max-width: 720px;
 }
 
 .error {
@@ -371,7 +541,8 @@ watch(
 
 @media (max-width: 900px) {
   .detail-hero,
-  .detail-grid {
+  .detail-grid,
+  .word-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -392,15 +563,28 @@ watch(
     margin-top: 18px;
   }
 
+  .association-header {
+    align-items: flex-start;
+  }
+
+  .association-button {
+    width: 100%;
+  }
+
   .hero-summary,
   .info-text,
   .status-text,
-  .section-intro {
+  .section-intro,
+  .word-text {
     font-size: 15px;
   }
 
   .section-heading h2 {
     font-size: 21px;
+  }
+
+  .word-head h3 {
+    font-size: 22px;
   }
 }
 </style>
