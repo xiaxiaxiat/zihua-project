@@ -58,6 +58,11 @@ const goToEdit = (code) => {
   router.push(`/admin/characters/${code}/edit`);
 };
 
+const handleLogout = () => {
+  localStorage.removeItem('adminLoggedIn');
+  router.push('/admin/login');
+};
+
 const handleDelete = async (code, character) => {
   const confirmed = window.confirm(`确认删除汉字“${character}” (${code}) 吗？`);
   if (!confirmed) {
@@ -76,6 +81,10 @@ const handleDelete = async (code, character) => {
     deletingCode.value = '';
   }
 };
+
+onMounted(() => {
+  fetchCharacters();
+});
 </script>
 
 <template>
@@ -89,6 +98,7 @@ const handleDelete = async (code, character) => {
         </div>
         <div class="hero-actions">
           <button class="primary-button" type="button" @click="goToCreate">新增汉字</button>
+          <button class="secondary-button" type="button" @click="handleLogout">退出登录</button>
           <router-link class="secondary-button" to="/">返回游客首页</router-link>
         </div>
       </header>
